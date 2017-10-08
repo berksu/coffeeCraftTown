@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        saveNewUser()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,6 +26,29 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    func saveNewUser(){
+        let user = PFUser()
+        user.email = "berksukismet@gmail.com"
+        user.password = "123"
+        user.username = user.email
+        user["name"] = "Berksu"
+        user["surname"] = "Kismet"
+        user["age"]  = 1993
+        user["gender"] = "male"
+        user["QR"] = "berksu"
+        user["point"] = 1
+        
+        user.signUpInBackground { (succeeded, error) -> Void in
+            if error == nil {
+                print("success")
+            } else {
+                print("\(String(describing: error))");
+                // Show the errorString somewhere and let the user try again.
+            }
+        }
+        
+    }
 
 }
 
