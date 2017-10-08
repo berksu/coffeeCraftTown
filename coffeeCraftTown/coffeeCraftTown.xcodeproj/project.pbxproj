@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		906AC4319C4B4837DC70CEF1 /* Pods_coffeeCraftTown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E29B2BAED84CEA719BB8654 /* Pods_coffeeCraftTown.framework */; };
 		C93F62F61F8A71A500058CF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93F62F51F8A71A500058CF0 /* AppDelegate.swift */; };
 		C93F62F81F8A71A500058CF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93F62F71F8A71A500058CF0 /* ViewController.swift */; };
 		C93F62FB1F8A71A500058CF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93F62F91F8A71A500058CF0 /* Main.storyboard */; };
 		C93F62FD1F8A71A500058CF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93F62FC1F8A71A500058CF0 /* Assets.xcassets */; };
 		C93F63001F8A71A500058CF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93F62FE1F8A71A500058CF0 /* LaunchScreen.storyboard */; };
+		C93F63111F8A787800058CF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93F63071F8A787800058CF0 /* CoreGraphics.framework */; };
+		C93F63121F8A787800058CF0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93F63081F8A787800058CF0 /* CFNetwork.framework */; };
+		C93F63131F8A787800058CF0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C93F63091F8A787800058CF0 /* libz.tbd */; };
+		C93F63141F8A787800058CF0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93F630A1F8A787800058CF0 /* StoreKit.framework */; };
+		C93F63151F8A787800058CF0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93F630B1F8A787800058CF0 /* AudioToolbox.framework */; };
+		C93F63161F8A787800058CF0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93F630C1F8A787800058CF0 /* Security.framework */; };
+		C93F63171F8A787800058CF0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93F630D1F8A787800058CF0 /* CoreLocation.framework */; };
+		C93F63181F8A787800058CF0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C93F630E1F8A787800058CF0 /* libsqlite3.tbd */; };
+		C93F63191F8A787800058CF0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93F630F1F8A787800058CF0 /* QuartzCore.framework */; };
+		C93F631A1F8A787800058CF0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93F63101F8A787800058CF0 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E29B2BAED84CEA719BB8654 /* Pods_coffeeCraftTown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coffeeCraftTown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B6CFA3377FC1FA4D59DD46 /* Pods-coffeeCraftTown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeeCraftTown.release.xcconfig"; path = "Pods/Target Support Files/Pods-coffeeCraftTown/Pods-coffeeCraftTown.release.xcconfig"; sourceTree = "<group>"; };
 		C93F62F21F8A71A500058CF0 /* coffeeCraftTown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coffeeCraftTown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93F62F51F8A71A500058CF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C93F62F71F8A71A500058CF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,17 @@
 		C93F62FC1F8A71A500058CF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C93F62FF1F8A71A500058CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C93F63011F8A71A500058CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C93F63071F8A787800058CF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C93F63081F8A787800058CF0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C93F63091F8A787800058CF0 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C93F630A1F8A787800058CF0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C93F630B1F8A787800058CF0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C93F630C1F8A787800058CF0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C93F630D1F8A787800058CF0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C93F630E1F8A787800058CF0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C93F630F1F8A787800058CF0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C93F63101F8A787800058CF0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F450DA05EB5E06B15660783A /* Pods-coffeeCraftTown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeeCraftTown.debug.xcconfig"; path = "Pods/Target Support Files/Pods-coffeeCraftTown/Pods-coffeeCraftTown.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C93F63111F8A787800058CF0 /* CoreGraphics.framework in Frameworks */,
+				C93F63121F8A787800058CF0 /* CFNetwork.framework in Frameworks */,
+				C93F63131F8A787800058CF0 /* libz.tbd in Frameworks */,
+				C93F63141F8A787800058CF0 /* StoreKit.framework in Frameworks */,
+				C93F63151F8A787800058CF0 /* AudioToolbox.framework in Frameworks */,
+				C93F63161F8A787800058CF0 /* Security.framework in Frameworks */,
+				C93F63171F8A787800058CF0 /* CoreLocation.framework in Frameworks */,
+				C93F63181F8A787800058CF0 /* libsqlite3.tbd in Frameworks */,
+				C93F63191F8A787800058CF0 /* QuartzCore.framework in Frameworks */,
+				C93F631A1F8A787800058CF0 /* SystemConfiguration.framework in Frameworks */,
+				906AC4319C4B4837DC70CEF1 /* Pods_coffeeCraftTown.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94C2367AB22843F1B09AFBB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F450DA05EB5E06B15660783A /* Pods-coffeeCraftTown.debug.xcconfig */,
+				B4B6CFA3377FC1FA4D59DD46 /* Pods-coffeeCraftTown.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C93F62E91F8A71A500058CF0 = {
 			isa = PBXGroup;
 			children = (
 				C93F62F41F8A71A500058CF0 /* coffeeCraftTown */,
 				C93F62F31F8A71A500058CF0 /* Products */,
+				94C2367AB22843F1B09AFBB0 /* Pods */,
+				E48707DB2239E6D53D28AACA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +110,24 @@
 			path = coffeeCraftTown;
 			sourceTree = "<group>";
 		};
+		E48707DB2239E6D53D28AACA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C93F630B1F8A787800058CF0 /* AudioToolbox.framework */,
+				C93F63081F8A787800058CF0 /* CFNetwork.framework */,
+				C93F63071F8A787800058CF0 /* CoreGraphics.framework */,
+				C93F630D1F8A787800058CF0 /* CoreLocation.framework */,
+				C93F630E1F8A787800058CF0 /* libsqlite3.tbd */,
+				C93F63091F8A787800058CF0 /* libz.tbd */,
+				C93F630F1F8A787800058CF0 /* QuartzCore.framework */,
+				C93F630C1F8A787800058CF0 /* Security.framework */,
+				C93F630A1F8A787800058CF0 /* StoreKit.framework */,
+				C93F63101F8A787800058CF0 /* SystemConfiguration.framework */,
+				8E29B2BAED84CEA719BB8654 /* Pods_coffeeCraftTown.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C93F63041F8A71A500058CF0 /* Build configuration list for PBXNativeTarget "coffeeCraftTown" */;
 			buildPhases = (
+				AC82B1671866AA98ACABFD32 /* [CP] Check Pods Manifest.lock */,
 				C93F62EE1F8A71A500058CF0 /* Sources */,
 				C93F62EF1F8A71A500058CF0 /* Frameworks */,
 				C93F62F01F8A71A500058CF0 /* Resources */,
+				67F4C8E0228E5D466956D566 /* [CP] Embed Pods Frameworks */,
+				EE6A88E738750C3FE63756F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +197,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67F4C8E0228E5D466956D566 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coffeeCraftTown/Pods-coffeeCraftTown-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC82B1671866AA98ACABFD32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE6A88E738750C3FE63756F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coffeeCraftTown/Pods-coffeeCraftTown-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C93F62EE1F8A71A500058CF0 /* Sources */ = {
@@ -272,6 +387,7 @@
 		};
 		C93F63051F8A71A500058CF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F450DA05EB5E06B15660783A /* Pods-coffeeCraftTown.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +403,7 @@
 		};
 		C93F63061F8A71A500058CF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4B6CFA3377FC1FA4D59DD46 /* Pods-coffeeCraftTown.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
