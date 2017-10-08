@@ -7,4 +7,5 @@ target 'coffeeCraftTown' do
 
   # Pods for coffeeCraftTown
   pod 'Parse'
+
 end

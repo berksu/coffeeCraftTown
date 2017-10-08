@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14331FB01F8AC0A3000AAD75 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14331FAF1F8AC0A3000AAD75 /* LoginViewController.swift */; };
 		906AC4319C4B4837DC70CEF1 /* Pods_coffeeCraftTown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E29B2BAED84CEA719BB8654 /* Pods_coffeeCraftTown.framework */; };
 		C93F62F61F8A71A500058CF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93F62F51F8A71A500058CF0 /* AppDelegate.swift */; };
 		C93F62F81F8A71A500058CF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93F62F71F8A71A500058CF0 /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14331FAF1F8AC0A3000AAD75 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8E29B2BAED84CEA719BB8654 /* Pods_coffeeCraftTown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coffeeCraftTown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4B6CFA3377FC1FA4D59DD46 /* Pods-coffeeCraftTown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeeCraftTown.release.xcconfig"; path = "Pods/Target Support Files/Pods-coffeeCraftTown/Pods-coffeeCraftTown.release.xcconfig"; sourceTree = "<group>"; };
 		C93F62F21F8A71A500058CF0 /* coffeeCraftTown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coffeeCraftTown.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +108,7 @@
 				C93F62FC1F8A71A500058CF0 /* Assets.xcassets */,
 				C93F62FE1F8A71A500058CF0 /* LaunchScreen.storyboard */,
 				C93F63011F8A71A500058CF0 /* Info.plist */,
+				14331FAF1F8AC0A3000AAD75 /* LoginViewController.swift */,
 			);
 			path = coffeeCraftTown;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14331FB01F8AC0A3000AAD75 /* LoginViewController.swift in Sources */,
 				C93F62F81F8A71A500058CF0 /* ViewController.swift in Sources */,
 				C93F62F61F8A71A500058CF0 /* AppDelegate.swift in Sources */,
 			);
