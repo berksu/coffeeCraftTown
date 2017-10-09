@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Jad-5z-L0l">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,8 +9,14 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="HelveticaNeue.ttc">
-            <string>HelveticaNeue</string>
+        <array key="LemonMilk.otf">
+            <string>LemonMilk</string>
+        </array>
+        <array key="coolvetica rg.ttf">
+            <string>CoolveticaRg-Regular</string>
+        </array>
+        <array key="yorkwhiteletter.otf">
+            <string>yorkwhiteletter</string>
         </array>
     </customFonts>
     <scenes>
@@ -37,19 +43,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kullanıcı Adı" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SMk-fD-93Y">
-                                <rect key="frame" x="16" y="180" width="93.666666666666671" height="20"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="16" y="180" width="82.666666666666671" height="20"/>
+                                <fontDescription key="fontDescription" name="CoolveticaRg-Regular" family="Coolvetica" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Parola" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0L-hm-lGj">
-                                <rect key="frame" x="16" y="263" width="48.666666666666671" height="20"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="15.999999999999996" y="263" width="42.666666666666657" height="20"/>
+                                <fontDescription key="fontDescription" name="CoolveticaRg-Regular" family="Coolvetica" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jfO-Bu-FXX">
                                 <rect key="frame" x="16" y="208" width="382" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.92156862750000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -59,6 +64,7 @@
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d9T-H0-vHW">
                                 <rect key="frame" x="16" y="291" width="382" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.92156862750000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -67,10 +73,11 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rsr-A5-o2y">
-                                <rect key="frame" x="325" y="343" width="69" height="30"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="304" y="343" width="90" height="37"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="LemonMilk" family="Lemon/Milk" pointSize="17"/>
                                 <state key="normal" title=" Giriş Yap ">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyz-xc-btQ">
@@ -84,17 +91,28 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NK3-Xy-ezH">
-                                <rect key="frame" x="271" y="391" width="131" height="30"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="215" y="398" width="187" height="37"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="LemonMilk" family="Lemon/Milk" pointSize="17"/>
                                 <state key="normal" title=" Parolamı Unuttum ">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Craft Town " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibq-D4-zaU">
+                                <rect key="frame" x="105" y="70" width="195" height="56"/>
+                                <fontDescription key="fontDescription" name="yorkwhiteletter" family="yorkwhiteletter" pointSize="46"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="jA1-TJ-Vac" firstAttribute="trailing" secondItem="ibq-D4-zaU" secondAttribute="trailing" constant="114" id="0Jd-C7-URt"/>
+                            <constraint firstItem="SMk-fD-93Y" firstAttribute="top" secondItem="ibq-D4-zaU" secondAttribute="bottom" constant="54" id="3K9-2s-ofR"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="SMk-fD-93Y" secondAttribute="trailing" constant="20" symbolic="YES" id="5KR-3m-XZr"/>
                             <constraint firstItem="SMk-fD-93Y" firstAttribute="leading" secondItem="jA1-TJ-Vac" secondAttribute="leading" constant="16" id="9zL-EI-Bf9"/>
+                            <constraint firstItem="ibq-D4-zaU" firstAttribute="top" secondItem="jA1-TJ-Vac" secondAttribute="top" constant="50" id="Cg0-Pa-IG0"/>
+                            <constraint firstItem="ibq-D4-zaU" firstAttribute="leading" secondItem="jA1-TJ-Vac" secondAttribute="leading" constant="105" id="ET5-WR-AF8"/>
                             <constraint firstItem="t0L-hm-lGj" firstAttribute="top" secondItem="jfO-Bu-FXX" secondAttribute="bottom" constant="25" id="IcO-Y6-HTS"/>
                             <constraint firstItem="jA1-TJ-Vac" firstAttribute="trailing" secondItem="gyz-xc-btQ" secondAttribute="trailing" constant="157" id="L0m-Xq-BZc"/>
                             <constraint firstItem="jA1-TJ-Vac" firstAttribute="trailing" secondItem="jfO-Bu-FXX" secondAttribute="trailing" constant="16" id="Mxc-Be-fFS"/>
@@ -111,7 +129,6 @@
                             <constraint firstItem="NK3-Xy-ezH" firstAttribute="top" secondItem="Rsr-A5-o2y" secondAttribute="bottom" constant="18" id="lEI-1a-6w9"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="t0L-hm-lGj" secondAttribute="trailing" constant="20" symbolic="YES" id="lh7-iG-Nzx"/>
                             <constraint firstItem="Rsr-A5-o2y" firstAttribute="top" secondItem="d9T-H0-vHW" secondAttribute="bottom" constant="22" id="mgp-TB-Nsq"/>
-                            <constraint firstItem="SMk-fD-93Y" firstAttribute="top" secondItem="jA1-TJ-Vac" secondAttribute="top" constant="160" id="ttL-w5-cdw"/>
                             <constraint firstItem="jA1-TJ-Vac" firstAttribute="bottom" secondItem="gyz-xc-btQ" secondAttribute="bottom" constant="20" id="ueK-eU-Kfd"/>
                             <constraint firstItem="jfO-Bu-FXX" firstAttribute="leading" secondItem="jA1-TJ-Vac" secondAttribute="leading" constant="16" id="yOx-cG-bp4"/>
                         </constraints>
@@ -239,6 +256,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wch-dl-HxC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="844" y="819.94002998500753"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QUM-vt-jtY">
+            <objects>
+                <viewController id="ujE-qf-J2H" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dZB-DC-YHz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lRN-7C-qdV">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="Coffee Craft Town" id="pHq-sE-z7a"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lRN-7C-qdV" firstAttribute="leading" secondItem="M7X-te-a7V" secondAttribute="leading" id="6Sc-IQ-3Nq"/>
+                            <constraint firstItem="lRN-7C-qdV" firstAttribute="top" secondItem="M7X-te-a7V" secondAttribute="top" id="mBN-vL-XU3"/>
+                            <constraint firstItem="lRN-7C-qdV" firstAttribute="trailing" secondItem="M7X-te-a7V" secondAttribute="trailing" id="zCg-8e-18P"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="M7X-te-a7V"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sDr-wI-AfH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1736" y="34"/>
         </scene>
     </scenes>
 </document>
