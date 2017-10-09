@@ -7,5 +7,6 @@ target 'coffeeCraftTown' do
 
   # Pods for coffeeCraftTown
   pod 'Parse'
+  pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift4'
 
 end

@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		14331FB01F8AC0A3000AAD75 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14331FAF1F8AC0A3000AAD75 /* LoginViewController.swift */; };
+		1449A9C01F8B82FD0054154C /* Lobster_1.3.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1449A9BF1F8B82FD0054154C /* Lobster_1.3.otf */; };
+		1449A9C71F8B83800054154C /* LemonMilklightitalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1449A9C11F8B837F0054154C /* LemonMilklightitalic.otf */; };
+		1449A9C81F8B83800054154C /* LemonMilklight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1449A9C21F8B837F0054154C /* LemonMilklight.otf */; };
+		1449A9C91F8B83800054154C /* LemonMilkitalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1449A9C31F8B837F0054154C /* LemonMilkitalic.otf */; };
+		1449A9CA1F8B83800054154C /* LemonMilk.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1449A9C41F8B837F0054154C /* LemonMilk.otf */; };
+		1449A9CB1F8B83800054154C /* LemonMilkbold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1449A9C51F8B837F0054154C /* LemonMilkbold.otf */; };
+		1449A9CC1F8B83800054154C /* LemonMilkbolditalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1449A9C61F8B83800054154C /* LemonMilkbolditalic.otf */; };
 		906AC4319C4B4837DC70CEF1 /* Pods_coffeeCraftTown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E29B2BAED84CEA719BB8654 /* Pods_coffeeCraftTown.framework */; };
 		C93F62F61F8A71A500058CF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93F62F51F8A71A500058CF0 /* AppDelegate.swift */; };
 		C93F62F81F8A71A500058CF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93F62F71F8A71A500058CF0 /* ViewController.swift */; };
@@ -28,6 +35,13 @@
 
 /* Begin PBXFileReference section */
 		14331FAF1F8AC0A3000AAD75 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1449A9BF1F8B82FD0054154C /* Lobster_1.3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lobster_1.3.otf; sourceTree = "<group>"; };
+		1449A9C11F8B837F0054154C /* LemonMilklightitalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LemonMilklightitalic.otf; sourceTree = "<group>"; };
+		1449A9C21F8B837F0054154C /* LemonMilklight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LemonMilklight.otf; sourceTree = "<group>"; };
+		1449A9C31F8B837F0054154C /* LemonMilkitalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LemonMilkitalic.otf; sourceTree = "<group>"; };
+		1449A9C41F8B837F0054154C /* LemonMilk.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LemonMilk.otf; sourceTree = "<group>"; };
+		1449A9C51F8B837F0054154C /* LemonMilkbold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LemonMilkbold.otf; sourceTree = "<group>"; };
+		1449A9C61F8B83800054154C /* LemonMilkbolditalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LemonMilkbolditalic.otf; sourceTree = "<group>"; };
 		8E29B2BAED84CEA719BB8654 /* Pods_coffeeCraftTown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coffeeCraftTown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4B6CFA3377FC1FA4D59DD46 /* Pods-coffeeCraftTown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeeCraftTown.release.xcconfig"; path = "Pods/Target Support Files/Pods-coffeeCraftTown/Pods-coffeeCraftTown.release.xcconfig"; sourceTree = "<group>"; };
 		C93F62F21F8A71A500058CF0 /* coffeeCraftTown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coffeeCraftTown.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +86,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1449A9BE1F8B82D50054154C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1449A9C41F8B837F0054154C /* LemonMilk.otf */,
+				1449A9C51F8B837F0054154C /* LemonMilkbold.otf */,
+				1449A9C61F8B83800054154C /* LemonMilkbolditalic.otf */,
+				1449A9C31F8B837F0054154C /* LemonMilkitalic.otf */,
+				1449A9C21F8B837F0054154C /* LemonMilklight.otf */,
+				1449A9C11F8B837F0054154C /* LemonMilklightitalic.otf */,
+				1449A9BF1F8B82FD0054154C /* Lobster_1.3.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		94C2367AB22843F1B09AFBB0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +130,7 @@
 		C93F62F41F8A71A500058CF0 /* coffeeCraftTown */ = {
 			isa = PBXGroup;
 			children = (
+				1449A9BE1F8B82D50054154C /* Fonts */,
 				C93F62F51F8A71A500058CF0 /* AppDelegate.swift */,
 				C93F62F71F8A71A500058CF0 /* ViewController.swift */,
 				C93F62F91F8A71A500058CF0 /* Main.storyboard */,
@@ -194,8 +223,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C93F63001F8A71A500058CF0 /* LaunchScreen.storyboard in Resources */,
+				1449A9CB1F8B83800054154C /* LemonMilkbold.otf in Resources */,
 				C93F62FD1F8A71A500058CF0 /* Assets.xcassets in Resources */,
+				1449A9C01F8B82FD0054154C /* Lobster_1.3.otf in Resources */,
+				1449A9C91F8B83800054154C /* LemonMilkitalic.otf in Resources */,
+				1449A9CA1F8B83800054154C /* LemonMilk.otf in Resources */,
 				C93F62FB1F8A71A500058CF0 /* Main.storyboard in Resources */,
+				1449A9CC1F8B83800054154C /* LemonMilkbolditalic.otf in Resources */,
+				1449A9C71F8B83800054154C /* LemonMilklightitalic.otf in Resources */,
+				1449A9C81F8B83800054154C /* LemonMilklight.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
