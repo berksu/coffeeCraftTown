@@ -10,6 +10,9 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet weak var featuredNewsTitleLabel: UIImageView!
+    @IBOutlet weak var featuredNewsImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
